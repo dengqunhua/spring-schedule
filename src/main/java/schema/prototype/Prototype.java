@@ -11,6 +11,7 @@ import java.io.Serializable;
  * */
 public class Prototype implements Cloneable,Serializable {
 	
+	
 	private String proName;
 	
 	public String getProName() {
