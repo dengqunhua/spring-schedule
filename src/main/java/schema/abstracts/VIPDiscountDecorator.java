@@ -6,6 +6,8 @@ public class VIPDiscountDecorator extends DiscountDecorator {
         super(component);
     }
 
+	
+	
     @Override
     public void discount() {
         component.discount();
